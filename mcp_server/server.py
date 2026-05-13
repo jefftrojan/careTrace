@@ -553,4 +553,11 @@ def reconstruct_patient_timeline(
 
 
 if __name__ == "__main__":
-    mcp.run()
+    transport = os.getenv("MCP_TRANSPORT", "stdio")
+    if transport == "sse":
+        # HTTP/SSE transport for cloud platforms like Prompt Opinion
+        import uvicorn
+        app = mcp.sse_app()
+        uvicorn.run(app, host="0.0.0.0", port=int(os.getenv("PORT", os.getenv("MCP_PORT", "8001"))))
+    else:
+        mcp.run()

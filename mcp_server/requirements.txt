@@ -1,3 +1,6 @@
 mcp[cli]>=1.0.0
 ollama>=0.6.0
+openai>=1.0.0
 httpx>=0.28.0
+uvicorn>=0.46.0
+python-dotenv>=1.0.0

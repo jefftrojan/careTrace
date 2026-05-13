@@ -1,0 +1,51 @@
+services:
+  # ── MCP Server ─────────────────────────────────────────────────────────────
+  # Prompt Opinion connects to this at: https://caretrace-mcp.onrender.com/sse
+  - type: web
+    name: caretrace-mcp
+    runtime: python
+    buildCommand: pip install -r mcp_server/requirements.txt
+    startCommand: python mcp_server/server.py
+    envVars:
+      - key: MCP_TRANSPORT
+        value: sse
+      - key: AI_PROVIDER
+        value: github
+      - key: GITHUB_MODEL
+        value: gpt-4o-mini
+      - key: GITHUB_TOKEN
+        sync: false          # set this in Render dashboard
+      - key: HAPI_FHIR_URL
+        value: https://hapi.fhir.org/baseR4
+      - key: OLLAMA_MODEL
+        value: llama3.2:3b
+
+  # ── Backend API ────────────────────────────────────────────────────────────
+  # Next.js frontend calls this for timeline reconstruction
+  - type: web
+    name: caretrace-backend
+    runtime: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: python backend/main.py
+    envVars:
+      - key: AI_PROVIDER
+        value: github
+      - key: GITHUB_MODEL
+        value: gpt-4o-mini
+      - key: GITHUB_TOKEN
+        sync: false          # set this in Render dashboard
+      - key: HAPI_FHIR_URL
+        value: https://hapi.fhir.org/baseR4
+
+  # ── Frontend ───────────────────────────────────────────────────────────────
+  - type: web
+    name: caretrace-frontend
+    runtime: node
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://caretrace-backend.onrender.com
+      - key: NODE_ENV
+        value: production
