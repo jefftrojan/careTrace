@@ -1,0 +1,41 @@
+RADIOLOGY REPORT — RENAL ULTRASOUND
+Patient: James Okonkwo | DOB: 1978-06-12
+Date of Examination: October 3, 2024
+Radiologist: Dr. P. Kamau, MBBS, FRCR
+Facility: Aga Khan University Hospital, Nairobi
+
+CLINICAL INDICATION:
+Known CKD Stage 3b secondary to diabetic nephropathy. Assess renal morphology,
+rule out obstructive uropathy or incidental mass.
+
+TECHNIQUE:
+B-mode and Doppler ultrasound of bilateral kidneys, ureters, and bladder.
+
+FINDINGS:
+
+RIGHT KIDNEY:
+- Size: 9.8 cm (reduced; normal 10–12 cm)
+- Cortical thickness: 8mm (reduced; normal >15mm)
+- Echogenicity: Increased (Grade II–III) consistent with chronic parenchymal disease
+- No hydronephrosis. No calculi. No mass.
+- Resistive Index (RI): 0.74 (elevated; normal <0.70)
+
+LEFT KIDNEY:
+- Size: 9.5 cm (reduced)
+- Cortical thickness: 7mm (reduced)
+- Echogenicity: Increased (Grade II–III)
+- No hydronephrosis. No calculi. No mass.
+- Resistive Index (RI): 0.76 (elevated)
+
+BLADDER: Normal capacity. No post-void residual. No wall thickening.
+
+IMPRESSION:
+Bilateral small echogenic kidneys with reduced cortical thickness and elevated
+resistive indices bilaterally. Findings are consistent with chronic kidney disease
+of medical origin (diabetic nephropathy most likely given clinical context).
+No obstructive cause identified. No incidental renal mass.
+
+RECOMMENDATION:
+Correlate with clinical and biochemical findings. Suggest repeat imaging in
+6 months to monitor for further volume loss. Nephrology review recommended
+regarding dialysis access planning if eGFR continues to decline.

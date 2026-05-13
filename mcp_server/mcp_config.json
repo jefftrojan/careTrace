@@ -1,0 +1,29 @@
+{
+  "name": "CareTrace",
+  "version": "1.0.0",
+  "description": "AI-powered Clinical Timeline Reconstruction. Transforms fragmented patient clinical documents into coherent longitudinal medical histories with FHIR R4 output. Fully local — zero patient data egress.",
+  "author": "CareTrace",
+  "tools": [
+    {
+      "name": "extract_medical_entities",
+      "description": "Extract structured medical entities (diagnoses, medications, labs, procedures, allergies, encounters) from unstructured clinical text using local AI. Supports SHARP context propagation.",
+      "sharp_enabled": true
+    },
+    {
+      "name": "build_fhir_bundle",
+      "description": "Convert extracted clinical entities into a valid FHIR R4 Bundle with Patient, Condition, MedicationStatement, Observation, Encounter, and AllergyIntolerance resources.",
+      "sharp_enabled": true
+    },
+    {
+      "name": "reconstruct_patient_timeline",
+      "description": "CORE TOOL: Reconstruct a complete patient clinical timeline from multiple fragmented documents. Returns chronological timeline, FHIR bundle, risk flags, and physician-ready narrative summary.",
+      "sharp_enabled": true
+    }
+  ],
+  "sharp_context": {
+    "patient_id": "FHIR patient identifier for context propagation",
+    "fhir_base_url": "FHIR server base URL for live resource posting"
+  },
+  "run_command": "python server.py",
+  "transport": "stdio"
+}

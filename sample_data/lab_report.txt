@@ -1,0 +1,37 @@
+LABORATORY REPORT
+Patient: James Okonkwo
+Date of Collection: July 22, 2024
+Ordering Physician: Dr. K. Njoroge, Nephrology
+Facility: Kenyatta National Hospital — Renal Unit
+
+RENAL FUNCTION PANEL
+Serum Creatinine:     198 μmol/L     [HIGH]   Reference: 62–106 μmol/L
+eGFR (CKD-EPI):       34 mL/min      [LOW]    Reference: >60 mL/min
+Blood Urea Nitrogen:  12.4 mmol/L    [HIGH]   Reference: 2.5–7.1 mmol/L
+Uric Acid:            520 μmol/L     [HIGH]   Reference: 200–430 μmol/L
+
+URINALYSIS
+Urine Albumin/Creatinine Ratio: 420 mg/g   [HIGH]   Reference: <30 mg/g
+Urine protein: 3+ (trace)
+Microscopy: No casts seen
+
+DIABETES MONITORING
+HbA1c:                9.8%           [HIGH]   Reference: <7.0% (target for diabetics)
+Fasting Glucose:      14.2 mmol/L    [HIGH]   Reference: 3.9–5.5 mmol/L
+
+ELECTROLYTES
+Sodium:     138 mmol/L   (normal)
+Potassium:  5.1 mmol/L   (upper normal)
+Bicarbonate: 20 mmol/L   [LOW]   Reference: 22–29 mmol/L
+
+LIPID PANEL
+Total Cholesterol:  6.2 mmol/L     [HIGH]
+LDL:               4.1 mmol/L     [HIGH]
+HDL:               0.9 mmol/L     [LOW]
+Triglycerides:     3.8 mmol/L     [HIGH]
+
+INTERPRETATION:
+Significant deterioration in renal function compared to March 2024 baseline
+(Creatinine 102 → 198 μmol/L). eGFR now consistent with CKD Stage 3b.
+Albuminuria suggests diabetic nephropathy. Suboptimal glycaemic control.
+Dyslipidaemia present. Urgent nephrology follow-up recommended.

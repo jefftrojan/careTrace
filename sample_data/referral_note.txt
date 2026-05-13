@@ -1,0 +1,34 @@
+NEPHROLOGY REFERRAL NOTE
+Date: August 5, 2024
+Referring Physician: Dr. K. Njoroge, General Medicine
+Referred to: Dr. F. Achieng, Consultant Nephrologist
+Facility: Kenyatta National Hospital
+
+PATIENT: James Okonkwo | DOB: 1978-06-12 | ID: KNH-2024-0872
+
+REASON FOR REFERRAL:
+Rapid decline in renal function in a 46-year-old male with Type 2 Diabetes
+and hypertension. Creatinine has risen from 102 μmol/L (March 2024) to
+198 μmol/L (July 2024) — a 94% increase over 4 months. Clinically consistent
+with diabetic nephropathy progressing to CKD Stage 3b.
+
+RELEVANT HISTORY:
+- Type 2 Diabetes diagnosed March 2024, HbA1c persistently elevated (9.8% at last check)
+- Hypertension diagnosed 2019, currently on Amlodipine 10mg + Lisinopril 5mg
+- No prior nephrology involvement
+- Penicillin allergy (anaphylaxis)
+
+CURRENT MEDICATIONS:
+- Metformin 500mg BD (NOTE: may need dose reduction or cessation given eGFR 34)
+- Insulin glargine 20 units nocte
+- Amlodipine 10mg OD
+- Lisinopril 5mg OD
+
+CONCERNS:
+1. Metformin use with eGFR 34 — risk of lactic acidosis, please advise
+2. Rate of GFR decline is accelerated — query superimposed AKI vs rapid DKD
+3. Hyperkalaemia risk on Lisinopril with declining GFR
+4. Dyslipidaemia not yet treated — awaiting specialist input
+
+Please advise on: renal biopsy necessity, SGLT2 inhibitor candidacy,
+statin initiation, and dialysis planning if trajectory continues.

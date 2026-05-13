@@ -1,0 +1,40 @@
+CURRENT MEDICATION LIST
+Patient: James Okonkwo
+Date Compiled: September 10, 2024
+Compiled by: Pharmacy, Kenyatta National Hospital
+
+ACTIVE MEDICATIONS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Empagliflozin (Jardiance) 10mg — once daily with breakfast
+   Started: August 2024 | Indication: Type 2 DM + CKD renoprotection
+   Prescriber: Dr. F. Achieng (Nephrology)
+
+2. Insulin glargine (Lantus) 24 units — at bedtime (DOSE INCREASED)
+   Started: March 2024, dose increased August 2024
+   Prescriber: Dr. F. Achieng
+
+3. Amlodipine 10mg — once daily
+   Started: 2019 | Indication: Hypertension
+   Prescriber: Dr. K. Njoroge
+
+4. Lisinopril 10mg — once daily (DOSE INCREASED from 5mg)
+   Started: March 2024, increased August 2024
+   Indication: Hypertension + proteinuria reduction
+   Prescriber: Dr. F. Achieng
+
+5. Atorvastatin 40mg — once daily at night
+   Started: August 2024 | Indication: Dyslipidaemia
+   Prescriber: Dr. F. Achieng
+
+6. Sodium bicarbonate 500mg — three times daily
+   Started: August 2024 | Indication: Metabolic acidosis (bicarb 20)
+   Prescriber: Dr. F. Achieng
+
+STOPPED MEDICATIONS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. Metformin 500mg BD — STOPPED August 2024
+   Reason: eGFR 34 (contraindicated below eGFR <30, risk with rapid decline)
+
+ALLERGIES ON FILE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Penicillin → Anaphylaxis (confirmed, MedAlert bracelet issued)

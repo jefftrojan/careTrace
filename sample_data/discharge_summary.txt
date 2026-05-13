@@ -1,0 +1,32 @@
+DISCHARGE SUMMARY
+Date of Admission: March 14, 2024
+Date of Discharge: March 18, 2024
+Patient: James Okonkwo, DOB: 1978-06-12
+Attending Physician: Dr. Sarah Mwangi, Internal Medicine
+Facility: Nairobi General Hospital
+
+REASON FOR ADMISSION:
+Patient presented with severe fatigue, increased thirst, and polyuria × 3 weeks.
+Random blood glucose on arrival: 22.4 mmol/L.
+
+DIAGNOSES:
+1. Type 2 Diabetes Mellitus — newly diagnosed (ICD-10: E11.9)
+2. Hypertension — known since 2019 (ICD-10: I10)
+3. Diabetic ketoacidosis — resolved (ICD-10: E11.10)
+
+HOSPITAL COURSE:
+Patient was admitted and started on IV insulin infusion for DKA correction.
+Transitioned to subcutaneous insulin on Day 2. Blood pressure controlled with
+existing amlodipine 10mg daily. HbA1c returned at 11.2%. Renal function
+baseline established: Creatinine 102 μmol/L, eGFR 71 mL/min/1.73m².
+
+MEDICATIONS AT DISCHARGE:
+1. Metformin 500mg twice daily (with meals) — new
+2. Insulin glargine (Lantus) 20 units at bedtime — new
+3. Amlodipine 10mg once daily — continued
+4. Lisinopril 5mg once daily — new (renoprotective)
+
+ALLERGIES: Penicillin (anaphylaxis)
+
+FOLLOW-UP: Outpatient diabetes clinic in 4 weeks. Repeat HbA1c in 3 months.
+Ophthalmology referral for baseline diabetic eye screening.
