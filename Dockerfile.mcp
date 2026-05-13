@@ -1,0 +1,18 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY mcp_server/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY mcp_server/ ./mcp_server/
+
+ENV MCP_TRANSPORT=sse
+ENV AI_PROVIDER=github
+ENV GITHUB_MODEL=gpt-4o-mini
+ENV HAPI_FHIR_URL=https://hapi.fhir.org/baseR4
+
+# HuggingFace Spaces uses port 7860
+EXPOSE 7860
+
+CMD ["python", "mcp_server/server.py"]

@@ -1,0 +1,20 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY mcp_server/requirements.txt mcp_requirements.txt
+COPY backend/requirements.txt backend_requirements.txt
+RUN pip install --no-cache-dir -r mcp_requirements.txt -r backend_requirements.txt
+
+# Copy both services — backend imports tools from mcp_server
+COPY mcp_server/ ./mcp_server/
+COPY backend/ ./backend/
+
+ENV AI_PROVIDER=github
+ENV GITHUB_MODEL=gpt-4o-mini
+ENV HAPI_FHIR_URL=https://hapi.fhir.org/baseR4
+
+# HuggingFace Spaces uses port 7860
+EXPOSE 7860
+
+CMD ["python", "backend/main.py"]
