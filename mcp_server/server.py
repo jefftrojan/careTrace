@@ -19,6 +19,7 @@ mcp = FastMCP(
         "resources, and reconstruct_patient_timeline to produce the full clinical narrative from "
         "multiple documents. All tools support SHARP context (patient_id, fhir_base_url)."
     ),
+    host="0.0.0.0",  # disables DNS rebinding protection so HF Spaces proxy host header is accepted
 )
 
 # AI provider: "github" uses GitHub Models (fast, cloud), "ollama" uses local Ollama
@@ -469,6 +470,7 @@ TIMELINE_SCHEMA = {
             },
         },
         "clinical_summary": {"type": "string"},
+        "patient_summary": {"type": "string"},
         "primary_diagnosis": {"type": "string"},
         "care_trajectory": {"type": "string"},
     },

@@ -45,6 +45,7 @@ class CareTraceState(TypedDict):
     timeline: list[dict]
     risks: list[dict]
     clinical_summary: str
+    patient_summary: str
     primary_diagnosis: str
     care_trajectory: str
     entity_counts: dict
@@ -96,14 +97,16 @@ def node_timeline(state: CareTraceState) -> dict:
         f"EXTRACTED HISTORY:\n{json.dumps(merged, indent=2)}\n\n"
         "1. Build a chronological timeline of key medical events.\n"
         "2. Identify clinical risks: medication gaps, missing follow-ups, conflicting diagnoses, deteriorating trends.\n"
-        "3. Write a 3-5 sentence physician-ready clinical summary.\n"
-        "4. State the primary diagnosis and care trajectory."
+        "3. Write a 3-5 sentence physician-ready clinical summary (field: clinical_summary).\n"
+        "4. Write a 2-3 sentence plain-language patient summary using simple words, avoiding all medical jargon (field: patient_summary).\n"
+        "5. State the primary diagnosis and care trajectory."
     )
     analysis = _ollama_json(prompt, TIMELINE_SCHEMA)
     return {
         "timeline": analysis.get("timeline", []),
         "risks": analysis.get("risks", []),
         "clinical_summary": analysis.get("clinical_summary", ""),
+        "patient_summary": analysis.get("patient_summary", ""),
         "primary_diagnosis": analysis.get("primary_diagnosis", ""),
         "care_trajectory": analysis.get("care_trajectory", ""),
         "entity_counts": {k: len(v) for k, v in merged.items()},
@@ -182,6 +185,7 @@ async def reconstruct(
         "timeline": [],
         "risks": [],
         "clinical_summary": "",
+        "patient_summary": "",
         "primary_diagnosis": "",
         "care_trajectory": "",
         "entity_counts": {},
@@ -196,6 +200,7 @@ async def reconstruct(
         "timeline": result["timeline"],
         "risks": result["risks"],
         "clinical_summary": result["clinical_summary"],
+        "patient_summary": result.get("patient_summary", ""),
         "primary_diagnosis": result["primary_diagnosis"],
         "care_trajectory": result["care_trajectory"],
         "entity_counts": result["entity_counts"],

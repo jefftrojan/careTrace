@@ -13,8 +13,9 @@ COPY backend/ ./backend/
 ENV AI_PROVIDER=github
 ENV GITHUB_MODEL=gpt-4o-mini
 ENV HAPI_FHIR_URL=https://hapi.fhir.org/baseR4
+# HuggingFace Spaces requires port 7860
+ENV PORT=7860
 
-# HuggingFace Spaces uses port 7860
 EXPOSE 7860
 
 CMD ["python", "backend/main.py"]
